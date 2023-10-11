@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Circle
+{
+    double pi = 3.14;
+
+    double GetArea(double radius)
+    {
+        return radius * radius * pi;
+    }
+
+    public void Print(double value)
+    {
+        Console.WriteLine(GetArea(value));
+    }
+}
